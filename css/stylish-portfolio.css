@@ -11,7 +11,8 @@ body {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  /*padding: 1.25rem 2.5rem;*/
+  padding: 0.5rem 1.2rem;
 }
 
 .content-section {
@@ -84,7 +85,8 @@ h6 {
 .masthead {
   min-height: 30rem;
   position: relative;
-  display: table;
+  display: table; 
+  display: flex;
   width: 100%;
   height: auto;
   padding-top: 8rem;
@@ -132,7 +134,7 @@ h6 {
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
  /* background: #1D809F; */
-  background: SeaGreen;
+  background: rgba(52, 58, 64, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -382,4 +384,8 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+.img-fluid {
+  height: 265px; !important;
 }

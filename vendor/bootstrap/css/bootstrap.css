@@ -2979,7 +2979,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-light {
   color: #f8f9fa;
-  background-color: transparent;
+  /*background-color: transparent; */
+  background-color: rgba(52, 50, 60, 0.4);
   background-image: none;
   border-color: #f8f9fa;
 }
